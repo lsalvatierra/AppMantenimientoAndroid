@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F7695</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorbtnAccion">#1868C8</color>
+    <color name="colorbtnAgregar">#18C83B</color>
+    <color name="colorbtnEliminar">#E91A27</color>
+    <color name="colorbtnActualizar">#F1B726</color>
+    <color name="colorbtnTexto">#FFFF</color>
+
+</resources>

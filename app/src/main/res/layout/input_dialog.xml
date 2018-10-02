@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/datosLayout"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/lbldatos"
+                android:id="@+id/txtNombre"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnAgregar"
+                android:text="@string/lblAgregar"
+                android:clickable="true"
+                android:background="@color/colorbtnAgregar"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorbtnTexto"
+
+                />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnActualizar"
+                android:text="@string/lblActualizar"
+                android:clickable="true"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorbtnActualizar"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorbtnTexto"
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEliminar"
+                android:text="@string/lblEliminar"
+                android:clickable="true"
+                android:layout_marginLeft="5dp"
+                android:background="@color/colorbtnEliminar"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/colorbtnTexto"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

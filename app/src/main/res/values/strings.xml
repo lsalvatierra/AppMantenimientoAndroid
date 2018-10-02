@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarea1</string>
+    <string name="lbldatos">Nombres y apellidos</string>
+    <string name="lblAgregar">Agregar</string>
+    <string name="lblActualizar">Actualizar</string>
+    <string name="lblEliminar">Eliminar</string>
+</resources>
